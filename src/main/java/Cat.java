@@ -9,6 +9,7 @@ public class Cat {
         File file = new File("C:/Users/Administrator/Desktop/1/hello.txt");
         //你好
         //xinshijie
+        //另一个分支
         System.out.println(file.exists());
     }
 }
