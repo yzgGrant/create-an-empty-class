@@ -1,6 +1,13 @@
+import java.io.File;
+
 public class Cat {
+    int a = 1;
+    int b = 2;
 
     public static void main(String[] args) {
-        System.out.println("hello world");
+        Cat cat = new Cat();
+        File file = new File("C:/Users/Administrator/Desktop/1/hello.txt");
+        //你好
+        System.out.println(file.exists());
     }
 }
