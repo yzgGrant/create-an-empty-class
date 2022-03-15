@@ -8,6 +8,7 @@ public class Cat {
         Cat cat = new Cat();
         File file = new File("C:/Users/Administrator/Desktop/1/hello.txt");
         //你好
+        //xinshijie
         System.out.println(file.exists());
     }
 }
